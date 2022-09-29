@@ -1,12 +1,12 @@
 #  Ticker Data Filler Application
 
-This application automatically fills in certain data given an excel file with tickers and a specified date placed in the first two columns
+This application automatically fills in certain data given an excel file with stocks tickers and a specified date placed in the first two columns
 
 
 The headers should be in this order to correctly fill data:
 Ticker, Date, Gap %, Open, High, Low, Close, Volume
 
-You may also choose to have multiple days of data from the starting day and in that case add on any number of columns in the headers just making sure each day has its own Open, High, Low, Close and Volume
+You may also choose to have multiple days of data from the starting day and in that case add on any number of columns in the headers just making sure each day has its own Open, High, Low, Close and Volume columns
 
 An example of an excel sheet's headers wanting to track two days of data per ticker would be:
 
@@ -27,6 +27,6 @@ Note: Some ticker data may not fill due to errors with TD Ameritrade's API or if
 
 3. Follow the prompt asking for which sheet to edit
 
-4. Watch the magic happen!
+4. Watch the data get filled!
 
 
